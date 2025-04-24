@@ -1,0 +1,61 @@
+/* CSS Document
+Project Name: Dormant Neurons Website
+Version:  1.0
+Owner: Lea Schönherr
+Developed By: Soumya Shaw
+Responsive.css
+*/
+
+@media only screen and (max-width:700px) {
+    /*   Navbar CSS  */
+    .menu {
+        display: none;
+    }
+    .navbar-inner {
+        justify-content: space-around;
+    }
+    .hamburger {
+        display: flex;
+    }
+    .menu.show {
+        display: flex;
+    }    
+}
+
+@media only screen and (max-width:800px) and (min-width:700px) {
+    /*   Navbar CSS  */
+    .menu {
+        display: none;
+    }
+    .navbar-inner {
+        justify-content: space-around;
+    }
+    .hamburger {
+        display: flex;
+    }
+    .menu.show {
+        display: flex;
+    }
+
+}
+
+@media only screen and (max-width:1100px) {
+    
+}
+
+@media only screen and (max-width:1200px) {
+    
+}
+
+@media only screen and (min-width:1500px) {
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-area {
+        display: flex;
+        justify-content: center;
+    }
+
+}

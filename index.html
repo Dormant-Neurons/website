@@ -1,0 +1,294 @@
+<!--
+HTML Document
+Project Name: Dormant Neurons Website
+Version:  1.0
+Owner: Lea Schönherr
+Developed By: Soumya Shaw
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Dormant Neurons">
+    <title>Dormant Neurons</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/logo/favicon-light.png" id="light-scheme-icon">
+    <link rel="icon" type="image/png" href="img/logo/favicon-dark.png" id="dark-scheme-icon">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <!-- Responsive stylesheet  -->
+    <link rel="stylesheet" href="css/responsive.css" type="text/css">
+
+    <!-- Javascript -->
+    <script src="js/jquery.js"></script>
+    <script src="js/paper-loader.js"></script>
+    <script src="js/member-loader.js"></script>
+    <script src="js/news-loader.js"></script>
+    <script src="js/copyBibTex.js"></script>
+</head>
+
+<body>
+    <!-- Navigation Start -->
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="dormant-neurons-logo">
+                <img src="img/logo/logo-dark-wo-bg.png" alt="Dormant Neurons">
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li class="navbar-link"><a href="#research">Research</a></li>
+                    <li class="navbar-link"><a href="#latest-news">Latest News</a></li>
+                    <li class="navbar-link"><a href="#about-us">Team</a></li>
+                    <li class="navbar-link"><a href="#publications">Publications</a></li>
+                </ul>
+            </div>
+
+            <div class="join-team-outer">
+                <a href="">
+                    <div class="join-team" onclick="alert('Please send an email to schoenherr@cispa.de')">
+                        Join Our Team
+                    </div>
+                </a>
+            </div>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Navigation End-->
+
+    <!-- Home Start -->
+    <section class="home-area" id="home">
+        <!--
+        <div class="decor" id="decor-ball-1"></div>
+        <div class="decor" id="decor-ball-2"></div>
+        <div class="decor" id="decor-ball-3"></div>
+        <div class="decor" id="decor-ball-4"></div>
+        <div class="decor" id="decor-ball-5"></div>
+        -->
+
+        <div class="home-content-left">
+            <h1>
+                    Welcome to <br> <em>Dormant Neurons</em>
+            </h1>
+            <p>
+                Our research group researches large language model (LLM) security and security 
+                in machine learning (ML) in general. LLMs have seen a surge in popularity in 
+                recent years being adopted for different tasks such as chatbots, text summarization 
+                and code generation. In other domains of ML, image, audio and video generation have 
+                fostered creative work and facilitated an abundance of tasks. In both cases the 
+                security of the models and the detection and prevention of misuse are of key 
+                importance making the academic research highly meaningful.
+            </p>
+        </div>
+
+        <div class="home-content-right">
+            <img src="img/team/team.JPG" alt="Dormant Neurons Team">
+            <div class="caption-overlay">Dormant Neurons as last seen on Jun 2024</div>
+        </div>
+
+        <!--
+        <div class="bar" id="bar-1" data-speed="-1.65"></div>
+        <div class="bar" id="bar-2" data-speed="-0.66"></div>
+        -->
+    </section>
+    <!-- Home End -->
+
+    <!-- Research Start -->
+    <section class="research-area" id="research">
+        <!--
+        <div class="decor" id="decor-ball-6"></div>
+        <div class="decor" id="decor-ball-7"></div>
+        <div class="decor" id="decor-ball-8"></div>
+        -->
+        <div class="research-outer">
+            <div class="research-header">
+                <h1>Research</h1>
+            </div>
+            <div class="research-inner">
+                <div class="research-left">
+                    <div class="research-header-1">
+                        <h1>LLM Security</h1>
+                    </div>
+                    <div class="research-content">
+                        <p>
+                            Our research of LLM security covers several topics. We research prompt 
+                            injection attacks on LLMs in different settings and LLM's abilities to 
+                            keep contextual information confidential. Prompt injection gets 
+                            increasingly relevant with dual-use LLMs and app-integrated LLMs where 
+                            potential sources in the web or a local database could embed malicious 
+                            instructions. At the same time the LLMs ability to access local 
+                            databases yields a likelhood of being able to retrieve sensitive 
+                            information which must only be disclosed to authorized users. <br> <br>
+
+                            On top of that, our research includes applications of LLMs for 
+                            traditional security tasks to automate tasks traditionally done 
+                            my manual work from security specialists. Examples are the LLM's 
+                            potential to propose a secure version of vulnerable program code 
+                            and deobfuscating code samples by removing semantically irrelevant 
+                            components. We also use agentic LLM systems to automate security-related 
+                            tasks such as code analysis.
+                        </p>
+                    </div>
+                </div>
+                <div class="research-right">
+                    <!--
+                    <video autoplay loop muted playsinline>
+                        <source src="img/video/NN portrait.mp4" type="video/mp4">
+                    </video>
+                    -->
+                </div>
+            </div>
+            <div class="research-inner" id="research-inner-2">
+                <div class="research-left" id="research-left-2">
+                    <video autoplay loop muted playsinline>
+                        <source src="img/video/llm-landscape.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="research-right" id="research-right-2">
+                    <div class="research-header-1">
+                        <h1>Security in ML</h1>
+                    </div>
+                    <div class="research-content" id="research-content-2">
+                        <p>
+                            Besides LLMs, we analyze security-related ML topics in general. 
+                            One topic is continual learning and out-of-distribution detection. 
+                            In a world, where datasets continually evolve such as in the case 
+                            of malware is is of high importance to be able to detect new types 
+                            of malware without requiring retraining the model. Furthermore, 
+                            we research the efficacy of audio deep fake detectors, e.g., for 
+                            maliciously intended audio files which are increasingly abused for 
+                            scamming purposes. Related to that, we also analyze the robustness 
+                            of existing AI image detectors which is another highly relevant 
+                            topic with the increasing amount of deepfake visual content on the 
+                            internet. <br> <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Research End -->
+
+    <!-- Latest News Start -->
+    <section class="latest-news-area" id="latest-news">
+        <div class="latest-news-outer">
+            <div class="latest-news-header">
+                <h1>Latest News</h1>
+            </div>
+            <div class="latest-news-inner">
+            </div>
+        </div>
+    </section>
+    <!-- Latest News End -->
+
+    <!-- About Us Start -->
+    <section class="about-us-area" id="about-us">
+        <div class="about-us-outer">
+            <div class="about-us-header">
+                <h1>Meet the Team</h1>
+            </div>
+
+            <div class="team-container">
+                <div class="team-member">
+                    <img src="img/team/lea.jpg" alt="Lea Schönherr">
+                    <p class="name">Lea Schönherr</p>
+                    <p class="position">Group Leader</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/team/boss.png" alt="David Pape">
+                    <p class="name">David Pape</p>
+                    <p class="position">PhD Student</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/team/jonathan.jpeg" alt="Jonathan Evertz">
+                    <p class="name">Jonathan Evertz</p>
+                    <p class="position">PhD Student</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/team/boss.png" alt="Sina Mavali">
+                    <p class="name">Sina Mavali</p>
+                    <p class="position">PhD Student</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/team/boss.png" alt="David Beste">
+                    <p class="name">David Beste</p>
+                    <p class="position">PhD Student</p>
+                </div>
+
+                <div class="team-member">
+                    <img src="img/team/soumya.jpeg" alt="Soumya Shaw">
+                    <p class="name">Soumya Shaw</p>
+                    <p class="position">HiWi</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/team/boss.png" alt="David Pape">
+                    <p class="name">Anupam Varshney</p>
+                    <p class="position">HiWi</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/team/lady.jpg" alt="Jonathan Evertz">
+                    <p class="name">Jishitha Kondaveti</p>
+                    <p class="position">HiWi</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/team/lady.jpg" alt="Sina Mavali">
+                    <p class="name">Yage Zhang</p>
+                    <p class="position">HiWi</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/team/boss.png" alt="David Beste">
+                    <p class="name">Abdul Rafay Syed</p>
+                    <p class="position">HiWi</p>
+                </div>
+
+                <div class="team-member">
+                    <img src="img/team/srishti.png" alt="David Beste">
+                    <p class="name">Srishti Gupta</p>
+                    <p class="position">Intern</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/team/boss.png" alt="David Beste">
+                    <p class="name">Valentin Giraudeau</p>
+                    <p class="position">Intern</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- About Us End -->
+
+    <!-- Publications Start -->
+    <section class="publications-area" id="publications">
+        <div class="publications-outer">
+            <div class="publications-header">
+                <h1>Publications</h1>
+            </div>
+            <div class="publications-inner" id="papers-container">
+            </div>
+        </div>
+    </section>
+    <!-- Publications End -->
+</body>
