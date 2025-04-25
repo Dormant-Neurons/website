@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 memberDiv.classList.add("team-member");
 
                 const img = document.createElement("img");
-                img.src = member.image || "img/team/boss.png";
+                img.src = member.image || "img/team/placeholder.png";
                 img.alt = member.name;
 
                 const nameP = document.createElement("p");
