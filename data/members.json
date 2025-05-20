@@ -5,7 +5,7 @@
         "image": "img/team/lea.jpg",
         "image_alt": "img/team/lea_alt.png",
         "research": "['Trustworthy Machine Learning', 'Trustworthy Generative AI']",
-        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et magna vel tortor efficitur lacinia ac id magna. Mauris sit amet nisi eget augue pulvinar sodales et ut purus. Phasellus elementum velit auctor porta porttitor. Donec ligula metus, placerat vitae tortor eu, porta cursus magna. Sed eleifend rhoncus sollicitudin. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque tellus mi, mollis imperdiet feugiat molestie, semper eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo placerat urna quis maximus. Nulla mollis magna sed quam vehicula fermentum. Fusce mollis condimentum lobortis. Vestibulum ante ipsum."
+        "about": "I am tenure-track faculty at CISPA Helmholtz Center for Information Security since 2022. My research focuses on information security, particularly adversarial machine learning, trustworthy generative AI, and ML security applications. I am especially interested in language as an interface to machine learning models, including their cognitive representations and code generation with LLMs and their interactions with humans. I have obtained my PhD from Ruhr University Bochum, Germany, in 2021."
     },
     {
         "name": "David Pape",
