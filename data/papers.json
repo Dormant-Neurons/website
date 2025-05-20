@@ -99,15 +99,6 @@
         "bibtex": "@inproceedings{pape-23-uncertainty,\n    author={David Pape and Sina D{\\\"a}ubener and Thorsten Eisenhofer and Antonio Emanuele Cin{\\`a} and Lea Sch{\\\"o}nherr},\n    title={On the Limitations of Model Stealing with Uncertainty Quantification Models},\n    booktitle = {European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN)},\n    year={2023}\n}"
     },
     {
-        "id": "1905-Dron",
-        "title": "Drone Security and the Mysterious Case of DJI\u2019s DroneID",
-        "authors": "Nico Schiller et al.",
-        "date": "19-02-2023",
-        "journal": "Network and Distributed System Security Symposium (NDSS)",
-        "link": "https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f217_paper.pdf",
-        "bibtex": "@inproceedings{schiller-23-drone,\n    author={Nico Schiller and Merlin Chlosta and Moritz Schloegel and Nils Bars and Thorsten Eisenhofer and Tobias Scharnowski and Felix Domke and Lea Sch{\\\"o}nherr and Thorsten Holz},\n    title={Drone Security and the Mysterious Case of DJI\u2019s DroneID},\n    booktitle = {Network and Distributed System Security Symposium (NDSS)},\n    year={2023}\n}"
-    },
-    {
         "id": "1905-VENO",
         "title": "VENOMAVE: Clean-Label Poisoning Against Speech Recognition",
         "authors": "Hojjat Aghakhani et al.",
@@ -115,5 +106,14 @@
         "journal": "IEEE Secure and Trustworthy Machine Learning (SatML)",
         "link": "https://arxiv.org/pdf/2010.10682.pdf",
         "bibtex": "@inproceedings{aghakhani-23-venomave,\n    author={Hojjat Aghakhani and Lea Sch{\\\"o}nherr and Thorsten Eisenhofer and Dorothea Kolossa and Thorsten Holz and Christopher Kruegel and Giovanni Vign},\n    title={VENOMAVE: Clean-Label Poisoning Against Speech Recognition},\n    booktitle = {IEEE Secure and Trustworthy Machine Learning (SatML)},\n    year={2023}\n}"
+    },
+    {
+        "id": "1905-Dron",
+        "title": "Drone Security and the Mysterious Case of DJI\u2019s DroneID",
+        "authors": "Nico Schiller et al.",
+        "date": "19-02-2023",
+        "journal": "Network and Distributed System Security Symposium (NDSS)",
+        "link": "https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_f217_paper.pdf",
+        "bibtex": "@inproceedings{schiller-23-drone,\n    author={Nico Schiller and Merlin Chlosta and Moritz Schloegel and Nils Bars and Thorsten Eisenhofer and Tobias Scharnowski and Felix Domke and Lea Sch{\\\"o}nherr and Thorsten Holz},\n    title={Drone Security and the Mysterious Case of DJI\u2019s DroneID},\n    booktitle = {Network and Distributed System Security Symposium (NDSS)},\n    year={2023}\n}"
     }
 ]
