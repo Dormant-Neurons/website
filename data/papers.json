@@ -1,41 +1,5 @@
 [
     {
-        "id": "2005-TheI",
-        "title": "The Imitation Game: Exploring Brand Impersonation Attacks on Social Media Platforms",
-        "authors": "Bhupendra Acharya et al.",
-        "date": "20-08-2024",
-        "journal": "USENIX Security Symposium",
-        "link": "https://www.usenix.org/conference/usenixsecurity24/presentation/acharya",
-        "bibtex": "@inproceedings{acharya-24-imitation,\n    author={Bhupendra Acharya and Dario Lazzaro and Efren Lopez-Morales and Adam Oest and Muhammad Saad and Antonio Emanuele Cin{\\`a} and Lea Sch{\\\"o}nherr and Thorsten Holz},\n    title={The Imitation Game: Exploring Brand Impersonation Attacks on Social Media Platforms},\n    booktitle = {USENIX Security Symposium},\n    year={2024}\n}"
-    },
-    {
-        "id": "2005-ARep",
-        "title": "A Representative Study on Human Detection of Artificially Generated Media Across Countries",
-        "authors": "Joel Frank et al.",
-        "date": "20-05-2024",
-        "journal": "IEEE Security and Privacy (S&P)",
-        "link": "https://arxiv.org/pdf/2312.05976.pdf",
-        "bibtex": "@inproceedings{frank-24-human,\n    author={Joel Frank and Franziska Herbert and Jonas Ricker and Lea Sch{\\\"o}nherr and Thorsten Eisenhofer and Asja Fischer and Markus D{\\\"u}rmuth and Thorsten Holz},\n    title={A Representative Study on Human Detection of Artificially Generated Media Across Countries},\n    booktitle = {IEEE Security and Privacy (S\\&P)},\n    year={2024}\n}"
-    },
-    {
-        "id": "2005-Conn",
-        "title": "Conning the Crypto Conman: End-to-End Analysis of Cryptocurrency-based Technical Support Scams",
-        "authors": "Bhupendra Acharya et al.",
-        "date": "20-05-2024",
-        "journal": "IEEE Security and Privacy (S&P)",
-        "link": "https://arxiv.org/pdf/2401.09824.pdf",
-        "bibtex": "@inproceedings{acharya-24-crypto,\n    author={Bhupendra Acharya and Muhammad Saad and Antonio Emanuele Cin{\\`a} and Lea Sch{\\\"o}nherr and Hoang Dai Nguyen and Adam Oest and Phani Vadrevu and Thorsten Holz},\n    title={Conning the Crypto Conman: End-to-End Analysis of Cryptocurrency-based Technical Support Scams},\n    booktitle = {IEEE Security and Privacy (S\\&P)},\n    year={2024}\n}"
-    },
-    {
-        "id": "2005-Code",
-        "title": "CodeLMSec Benchmark: Systematically Evaluating and Finding Security Vulnerabilities in Black-Box Code Language Models",
-        "authors": "Hossein Hajipour et al.",
-        "date": "20-04-2024",
-        "journal": "IEEE Secure and Trustworthy Machine Learning (SatML)",
-        "link": "https://arxiv.org/pdf/2302.04012.pdf",
-        "bibtex": "@inproceedings{hajipour-24-codellm,\n    author={Hossein Hajipour and Keno Hassler and Thorsten Holz and Lea Sch{\\\"o}nherr and Mario Fritz},\n    title={CodeLMSec Benchmark: Systematically Evaluating and Finding Security Vulnerabilities in Black-Box Code Language Models},\n    booktitle = {IEEE Secure and Trustworthy Machine Learning (SatML)},\n    year={2024}\n}"
-    },
-    {
         "id": "2005-Expl",
         "title": "Exploring the Potential of LLMs for Code Deobfuscation ",
         "authors": "David Beste et al.",
@@ -88,6 +52,42 @@
         "journal": "ICML Workshop on Foundation Models in the Wild",
         "link": "https://openreview.net/pdf?id=WaGj1QfgCH",
         "bibtex": "@inproceedings{gupta-24-build,\n    author={Srishti Gupta and Daniele Angioni and Lea Sch{\\\"o}nherr and Ambra Demontis and Battista Biggio},\n    title={BUILD: Buffer-free Incremental Learning with OOD Detection for the Wild},\n    booktitle = {ICML Workshop on Foundation Models in the Wild},\n    year={2024}\n}"
+    },
+    {
+        "id": "2005-TheI",
+        "title": "The Imitation Game: Exploring Brand Impersonation Attacks on Social Media Platforms",
+        "authors": "Bhupendra Acharya et al.",
+        "date": "20-08-2024",
+        "journal": "USENIX Security Symposium",
+        "link": "https://www.usenix.org/conference/usenixsecurity24/presentation/acharya",
+        "bibtex": "@inproceedings{acharya-24-imitation,\n    author={Bhupendra Acharya and Dario Lazzaro and Efren Lopez-Morales and Adam Oest and Muhammad Saad and Antonio Emanuele Cin{\\`a} and Lea Sch{\\\"o}nherr and Thorsten Holz},\n    title={The Imitation Game: Exploring Brand Impersonation Attacks on Social Media Platforms},\n    booktitle = {USENIX Security Symposium},\n    year={2024}\n}"
+    },
+    {
+        "id": "2005-ARep",
+        "title": "A Representative Study on Human Detection of Artificially Generated Media Across Countries",
+        "authors": "Joel Frank et al.",
+        "date": "20-05-2024",
+        "journal": "IEEE Security and Privacy (S&P)",
+        "link": "https://arxiv.org/pdf/2312.05976.pdf",
+        "bibtex": "@inproceedings{frank-24-human,\n    author={Joel Frank and Franziska Herbert and Jonas Ricker and Lea Sch{\\\"o}nherr and Thorsten Eisenhofer and Asja Fischer and Markus D{\\\"u}rmuth and Thorsten Holz},\n    title={A Representative Study on Human Detection of Artificially Generated Media Across Countries},\n    booktitle = {IEEE Security and Privacy (S\\&P)},\n    year={2024}\n}"
+    },
+    {
+        "id": "2005-Conn",
+        "title": "Conning the Crypto Conman: End-to-End Analysis of Cryptocurrency-based Technical Support Scams",
+        "authors": "Bhupendra Acharya et al.",
+        "date": "20-05-2024",
+        "journal": "IEEE Security and Privacy (S&P)",
+        "link": "https://arxiv.org/pdf/2401.09824.pdf",
+        "bibtex": "@inproceedings{acharya-24-crypto,\n    author={Bhupendra Acharya and Muhammad Saad and Antonio Emanuele Cin{\\`a} and Lea Sch{\\\"o}nherr and Hoang Dai Nguyen and Adam Oest and Phani Vadrevu and Thorsten Holz},\n    title={Conning the Crypto Conman: End-to-End Analysis of Cryptocurrency-based Technical Support Scams},\n    booktitle = {IEEE Security and Privacy (S\\&P)},\n    year={2024}\n}"
+    },
+    {
+        "id": "2005-Code",
+        "title": "CodeLMSec Benchmark: Systematically Evaluating and Finding Security Vulnerabilities in Black-Box Code Language Models",
+        "authors": "Hossein Hajipour et al.",
+        "date": "20-04-2024",
+        "journal": "IEEE Secure and Trustworthy Machine Learning (SatML)",
+        "link": "https://arxiv.org/pdf/2302.04012.pdf",
+        "bibtex": "@inproceedings{hajipour-24-codellm,\n    author={Hossein Hajipour and Keno Hassler and Thorsten Holz and Lea Sch{\\\"o}nherr and Mario Fritz},\n    title={CodeLMSec Benchmark: Systematically Evaluating and Finding Security Vulnerabilities in Black-Box Code Language Models},\n    booktitle = {IEEE Secure and Trustworthy Machine Learning (SatML)},\n    year={2024}\n}"
     },
     {
         "id": "1905-Onth",
