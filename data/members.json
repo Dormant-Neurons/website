@@ -3,7 +3,6 @@
         "name": "Lea Sch\u00f6nherr",
         "position": "Group Leader",
         "image": "img/team/lea.jpg",
-        "image_alt": "img/team/lea_alt.png",
         "research": "['Trustworthy Machine Learning', 'Trustworthy Generative AI']",
         "about": "I love growing plants (very often not successful) and baking.\n\nAlso, I am tenure-track faculty at CISPA Helmholtz Center for Information Security since 2022. My research focuses on information security, particularly adversarial machine learning, trustworthy generative AI, and ML security applications. I am especially interested in language as an interface to machine learning models, including their cognitive representations and code generation with LLMs and their interactions with humans. I have obtained my PhD from Ruhr University Bochum, Germany, in 2021."
     },
@@ -38,6 +37,7 @@
     },
     {
         "name": "David Beste",
+        "additional info": "co-supervised by Thorsten Holz",
         "position": "PhD Student",
         "image": "img/team/placeholder.png",
         "research": "['Data Privacy', 'Machine Learning', 'Federated Learning']",
@@ -81,6 +81,7 @@
     },
     {
         "name": "Srishti Gupta",
+        "additional info": "University of Cagliari, Italy (Advised by Battista Biggio)",
         "position": "Intern",
         "image": "img/team/srishti.png",
         "research": "",
@@ -88,6 +89,7 @@
     },
     {
         "name": "Valentin Giraudeau",
+        "additional info": "CESI École d'ingénieurs, France",
         "position": "Intern",
         "image": "img/team/placeholder.png",
         "research": "",
