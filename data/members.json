@@ -35,10 +35,10 @@
     {
         "name": "Devansh Srivastav",
         "position": "PhD Student",
-        "image": "img/team/placeholder.png",
-        "research": "['Data Privacy', 'Machine Learning', 'Federated Learning']",
+        "image": "img/team/devansh.jpg",
+        "research": "['LLM Security', 'Adversarial Robustness', 'Multiagent Workflows', 'RAG', 'Trustworthy AI']",
         "info": "",
-        "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et magna vel tortor efficitur lacinia ac id magna. Mauris sit amet nisi eget augue pulvinar sodales et ut purus. Phasellus elementum velit auctor porta porttitor. Donec ligula metus, placerat vitae tortor eu, porta cursus magna. Sed eleifend rhoncus sollicitudin. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque tellus mi, mollis imperdiet feugiat molestie, semper eget quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo placerat urna quis maximus. Nulla mollis magna sed quam vehicula fermentum. Fusce mollis condimentum lobortis. Vestibulum ante ipsum."
+        "about": "My work focuses on LLM security and robustness. I did my master's in Data Science and Artificial Intelligence at Saarland University, and completed my master's thesis at CISPA on red teaming for LLM jailbreaks. Previously, I was a research assistant at the German Research Center for Artificial Intelligence (DFKI), working on interpretability and multi-agent AI systems. I completed my bachelor's in Computer Science from Amity University, India. Outside of research, I’m also a musician, passionate about exploring the creative synergy between technology and the arts."
     },
     {
         "name": "David Beste",
